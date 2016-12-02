@@ -1,4 +1,4 @@
-Design Debate
+Boulder Design Debate
 =======
 ## Installation
 Install [node.js & npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
