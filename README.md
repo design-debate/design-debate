@@ -29,3 +29,8 @@ $ npm run clean
 ```bash
 $ npm run build
 ```
+
+## Deployment
+```bash
+$ npm run deploy
+```
