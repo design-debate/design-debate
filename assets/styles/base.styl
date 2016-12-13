@@ -7,40 +7,147 @@
   src: url("Native-Bold.otf")
 
 html, body
+  font-family: 'Proxima Nova'
+  font-size: 14px
   height: 100%
-  background-color: #e3e3e3
+  background-color: #FFFFFF
+
+body
+  padding-left: 30px  
+
+a
+  color: #63666C
+  text-decoration: none
+
+a:hover
+  color: #FF4A37  
+
+
+.header
+  display: flex
+  align-items: center
+  background-color: #ffffff
+  width: 100%
+  height: 70px
+  top: 0
+  text-align: left
+  padding: 90px 0px 90px 0px
+
+.header img
+  margin: 2px
+
+.logo
+  width: 345px  
+
+.design-debate
+  width: 1100px
+  margin: 0 auto
+
+nav
+  float: right
+  text-align: right
+  padding-right: 72px
+
+nav ul
+  display: inline-block
+  list-style: none
+
+nav ul li
+  font-size:14px
+  font-family: 'Proxima Nova'
+  font-weight: 600
+
+nav ul li:a
+  color: green
 
 .wrapper
+	margin: 0 auto 100px auto
+	max-width: 1100px
 	display: flex
 	flex-direction: row
-	overflow: hidden
-	height: 100vh
 
 .left
 	flex: 0 0 32rem
-	padding: 0rem 2.5rem 0rem 2.5rem
-	max-width: 25rem
-	background-color: #EEEEEC
+	padding: 0rem 0rem 0rem 0rem
+	max-width: 250px
+	postion: fixed
+
+.event-date
+  padding: 30px 0 40px 0
+  border-top: 4px solid black
+
+.small-title
+  font-family: 'Proxima Nova'
+  padding-bottom: 5px
+  margin: 0px
+  font-size: 12px
+  font-weight: 600
+
+.med-title
+  font-family: 'Proxima Nova'
+  padding: 0px
+  margin: 0px
+  font-size: 18px
+  font-weight: 600 
+  line-height: 12px 
+
+.red
+  color: #FF4A37  
+
+.location
+  padding: 30px 0 40px 0
+  border-top: 4px solid black
+
+.sponsors
+  padding: 30px 0 40px 0
+  border-top: 4px solid black
+  margin-top: 50px
+
+.sponsor-logo img
+  width: 200px
+
+.sponsor-logo
+  padding-top: 20px  
+
+.location a
+  font-weight: 600  
+
 
 .right
-  background-color: white
   flex: 1
-  overflow: auto
-  padding: 4.45rem
+  max-width: 800px
+  min-width: 400px
+  padding-left: 65px
+
+.current
+  padding: 20px 0px 20px 0px
+  border-top: 4px solid black
+
+.current ol
+  padding-left: 0px
+  padding-top: 0px
+  padding-bottom: 0px  
+  font-family: 'Proxima Nova'
+  font-weight: 600
+  font-size: 1rem
+  list-style: none
+
+.current ol li
+  padding-top: 10px
+  padding-bottom: 10px  
 
 .branding
   display: flex
-  padding: 2.5em
   justify-content: center
+  flex: 1
 
 .event-meta
-  display: inline-block
   font-family: "Proxima Nova","Proxima-Nova","Helvetica Neue",Helvetica,Arial,sans-serif
   width: 100%
 
 .hero-meta
   transition: opacity 0.125s ease
-  margin-top: 60px
+  margin-top: 0px
   margin-bottom: 16px
 
 .label-bar
@@ -50,18 +157,15 @@ html, body
 
 .meta-category
   font-family: "Native Light"
-  display: inline-block
-  float: left
   font-size: 11px
   font-weight: 700
   text-transform: uppercase
 
 .hero-meta-category
   margin-right: 18px
-  white-space: nowrap
 
 .cat-opinions
-  color: #65655D
+  color: gray
 
 .discussion-list
   padding:0px
@@ -77,70 +181,99 @@ html, body
   padding-top: 0px  
 
 h1.hero-title
+  text-align: left
   font-family: 'Proxima Nova'
   margin:0px
-  padding: 0px
-  font-size: 5em
-  font-weight: 300
-  color: #C9C9C9
-  line-height: 80px
-
-.location
-  margin-top: 20px
+  padding-top: 0px
+  font-size: 36px
+  font-weight: 600
+  color: #FF4A37
 
 .location img
   padding-right: 10px    
 
 .button
-  background-color: #eeeeec
-  border: 3px solid gray
-  color: #FF4A37
-  padding: 16px 32px
+  font-family: 'Proxima Nova'
+  background-color: #FFFFFF
+  width: 100%
+  border: 4px solid #282828
+  color: #FF0000
+  padding: 12px 32px
   text-align: center
   text-decoration: none
   display: inline-block
-  font-size: 16px
+  font-size: 18px
   margin: 40px 2px
   -webkit-transition-duration: 0.4s
   transition-duration: 0.4s
   cursor: pointer
 
+.button:hover
+  border: 4px solid #ff0000
+
 h1.archive
-  font-family: 'Native Bold'
-  font-size: .875rem
+  font-family: 'Native light'
+  font-size: .75rem
   color: black
+  text-transform: uppercase
+
 
 .archive
-  margin-top: 40px
+  padding-top: 20px
 
-.archive ul:first-child
+.past-debates
+  padding-top: 20px
+  border-top: 4px solid black
+
+.debate-history
+  padding-top: 20px
+  padding-bottom: 30px
+
+.debate-content
+  border-bottom: 1px solid black  
+
+
+.debate-history ul
+  margin: 0px
+  padding-top: 35px
+  padding-bottom: 30px
+  padding-left: 0px
+  list-style: none
+  font-family: 'Proxima Nova'
+  font-size: .875rem 
   border-top: 1px solid black
-  border-bottom: 1px solid black
-  padding-top: 40px
-  padding-bottom: 40px 
-  padding-left: 0px
-  list-style: none 
-  font-family: 'Native Bold'
-  font-size: .75rem  
 
-.archive ul
-  border-bottom: 1px solid black
-  padding-left: 0px
-  padding-top: 40px
-  padding-bottom: 40px  
-  font-family: 'Native Bold'
-  font-size: .75rem
-  list-style: none 
-
-
-.archive ul li
+.debate-history ul li
   padding-bottom: 10px
 
-.archive ul li:last-child
-  padding-bottom: 0px    
+.topics
+  border-top: 1px solid black
+  margin-top: 20px
+
+.topics ul
+  margin: 0px
+  padding: 0px 0px 20px 0px  
+
+.topics ul li
+  font-size: 14px
+  font-weight: 300
+  padding-left: 0px
+  margin: 0px
+  list-style: none
+  padding-top: 32px
+
+.topics ul li:first-child
+  padding-top: 20px  
+
+.small-link
+  border-bottom: 1px dotted red
 
 .date
-	color: red
+  margin-top: 30px
+
+.notes
+  border-top: 1px dotted gray
+  padding-top: 20px
 
 h1.surprise
 	margin:0px

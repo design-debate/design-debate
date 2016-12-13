@@ -1,56 +1,76 @@
 extends layout
 
 block content
+ div.header
+  div.design-debate
+   img(src='/images/logo-2.png' class='logo' alt='logo')
+   nav
+    ul
+     li
+      a(href="#") About
  div.wrapper
   div.left
    div.branding
-    img(src="/images/logo.png" width="60%" height="60%" alt="logo")
-   div.hero-meta.event-meta
-    span.hero-meta-category.meta-category.cat-opinions NEXT
-   h1.hero-title 11/17
-   div.hero-meta.event-meta
-    span.hero-meta-category.meta-category.cat-opinions DISCUSSION
-    ul.discussion-list
-     li Point number 1
-     li Point Number 2
-     li Point Number 3
+   div.event-date
+    div.event-meta
+     div.small-title.red Next Debate
+     h1.hero-title Dec 2, 2016
+   
+   div.location 
+    div.small-title Location
+    div
+     img(src='/images/location-icon.svg' alt='location') 
+     a(href="#") Galvanize Boulder
 
-   div.hero-meta.event-meta
-    span.hero-meta-category.meta-category.cat-opinions LOCATION
-    div.location
-      img.location(src='/images/location-icon.svg' alt='location')
-      a(href="#") Galvanize Boulder
    button.button RSVP
+   div.sponsors
+    div.small-title Sponsors
+    div.sponsor-logo
+     img(src='/images/mojo_full_logo_green.png' alt='logo')
+    div.sponsor-logo
+     img(src='/images/galvanize.png' alt='logo')
+
+
   div.right
-   h1.archive Past Discussions
-   div.archive
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.
-    ul
-     span.date 11/22/16
-     li Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-     li Nunc eget volutpat dui. Duis lobortis, turpis id varius dictum, leo dui euismod dui, ac gravida purus ligula et augue. 
-     li Phasellus mattis suscipit lacus pretium interdum.  
+   div.current
+    h1.med-title Upcoming Debate Topics
+    div.topics
+     ol
+      li For 2017 what is the one most important design changes you would make for the city populations.
+      li Wearables. Hot topic. If you could just wear one item that "did" something what would it be? Prepare to switch off and debate both pros and cons of this item.
+      li Is there room for self expression in design? Is the designer’s voice an essential element? Or does the nature of design demand that the hand of the designer be invisible, that the voice be purely empathetic?
+
+   div.past-debates
+    div.med-title Past Debates
+     div.topics
+      h3.small-title.date December 6, 2016
+      ul
+       li For 2017 what is the one most important design change you would make for the city populations.
+       li Wearables - where are they headed and should we be consumed by them.
+       li Craft vs. Art: Should design include self expression?
+     div.topics
+      h3.small-title.date December 6, 2016
+      ul
+       li For 2017 what is the one most important design change you would make for the city populations.
+       li Wearables - where are they headed and should we be consumed by them.
+       li Craft vs. Art: Should design include self expression?
+     div.topics
+      h3.small-title.date December 6, 2016
+      ul
+       li For 2017 what is the one most important design change you would make for the city populations.
+       li Wearables - where are they headed and should we be consumed by them.
+       li Craft vs. Art: Should design include self expression?
+      h3.small-title.notes.red Notes
+       ul
+        li 
+         a(href='#') This is a link to an article
+     div.topics
+      h3.small-title.date December 6, 2016
+      ul
+       li For 2017 what is the one most important design change you would make for the city populations.
+       li Wearables - where are they headed and should we be consumed by them.
+       li Craft vs. Art: Should design include self expression?
+      h3.small-title.notes.red Notes
+      ul
+       li 
+        a.small-link(href='#') This is a link to an article  
